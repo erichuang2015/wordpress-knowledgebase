@@ -1,0 +1,196 @@
+/*
+Theme Name: Bunting Knowledgebase
+Theme URI: https://bunting.com
+Author: Ben @ Bunting
+Author URI: https://bunting.com
+Description: Build your site Athena with ease. Athena is a feature-loaded, user-friendly, fully responsive, Parallax modern WordPress theme built with care and SEO in mind. It is a Woocommerce ready, multi-purpose theme with a design that can be used by a business, restaurant, freelancers, photographers, bloggers, musicians and creative agencies. Athena features a full width frontpage slider, animated callouts with over 600 icons to choose from. The blog is an attractive masonry grid. It comes with many color options, left and right sidebars, 6 widget areas, primary and footer menus, mobile responsive menu and links to your social media sites . Athena allows you to fully customize your site without having to work with code. Athena also features a live customizer, allowing you to change settings and preview them live.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bunting
+Tags: bunting
+*/
+
+
+
+/* ==================================================================== */
+/*	--> G E N E R A L						*/
+/* ==================================================================== */
+
+.mobile-categories-menu-item {
+	display: none;
+}
+
+.num-posts-roundel {
+	width: 32px;
+	height: 32px;
+	background: #F6F6F6;
+	text-align: center;
+	border-radius: 50%;
+	padding: 8px;
+}
+
+
+#searchform {
+	display: inline-block;
+	line-height: 28px;
+	margin-top: 16px;
+}
+
+
+#searchform input[type="text"]{
+	padding: 4px;
+	border-radius: 3px;
+	border: 1px solid #ececec;
+	outline: none;
+	font-size: 12px;
+}
+
+
+
+.mt {
+	margin-top: 30px;
+}
+
+.mt-half {
+	margin-top: 15px;
+}
+
+.mb {
+	margin-bottom: 30px;
+}
+
+.fw {
+	width: 100%;
+}
+
+.posts hr {
+	margin: 30px 0px;
+}
+
+
+.wp-pagination {
+  font-size: 22px;
+}
+
+.post img {
+	max-width: 100% !important
+}
+
+
+/*
+#navbar_header LI.nav_main > A {
+font-size: 12px;
+padding-left: 9.5px;
+padding-top: 5px;
+padding-bottom: 0;
+}*/
+
+
+@media (min-width: 1301px) and (max-width:1902px) {
+
+	.categories-listing {
+		left: 6%;
+	}
+
+	.mobile-categories-menu {
+		display: block;
+	}
+
+
+}
+
+@media (max-width: 500px) {
+
+	.categories-listing {
+	  width: 100% !important;
+	}
+
+	.categories-listing #searchform {
+		width: 100%;
+	}
+
+
+	.mobile-view{
+		width: 100%;
+	}
+
+}
+
+
+/*
+
+#section-footer_navigation li {
+	font-size: 15px !important;
+}
+*/
+
+.categories-listing {
+	margin-top: 15px;
+}
+
+
+.categories-listing ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.categories-listing li {
+	line-height: 1.7
+}
+
+
+@media (max-width: 824px) {
+
+	.categories-listing {
+	  width: 100% !important;
+		position: absolute;
+		height: 100vh;
+		top: 0;
+		margin-top: 112px;
+	}
+
+	.categories-right {
+		text-align: right;
+		margin-right: 52px;
+		margin-top: -4px;
+	}
+
+	.mobile-categories-menu-item {
+		font-size: 28px;
+		display:block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin-right: 24px;
+		margin-top: -16px;
+		z-index: 99999;
+	}
+
+	.mobile-categories-menu {
+		display: none;
+		height: 100vh;
+		background: white;
+		text-align: right;
+		padding-right: 16px;
+	}
+
+	.mobile-categories-menu li{
+	font-size: 22px !important;
+	}
+
+
+
+
+
+	.mobile-categories-menu-item .close-button {
+		display: none;
+	}
+
+
+}
+
+#crumbtrail-bottom {
+  margin-bottom: -20px;
+}
